@@ -1,5 +1,11 @@
 <app-header></app-header>
-<div class="flex flex-row gap-8 p-10 mx-auto justify-center w-10/12 h-full">
-  <app-item-list class="w-3/4"></app-item-list>
-  <app-sidebar class="w-1/4 "></app-sidebar>
+<div class="flex flex-col mx-28 h-full ">
+  <div class="flex-grow h-96">
+    <app-media-showcase></app-media-showcase>
+  </div>
+  <div class="flex flex-row justify-center gap-8 ">
+    <app-item-list class="w-3/4"></app-item-list>
+    <app-sidebar class="w-1/4"></app-sidebar>
+  </div>
 </div>
+<app-footer></app-footer>
