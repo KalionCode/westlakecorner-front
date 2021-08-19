@@ -1,9 +1,7 @@
 <div class="flex justify-center flex-col flex-grow rounded-2xl shadow-md p-0 overflow-hidden">
   <!-- Label for the box -->
-  <h2 class="flex flex-grow items-center bg-gray-300 p-2 pl-4 font-bold text-gray-700">Trending pages</h2>
+  <h2 class="flex flex-grow items-center bg-gray-300 p-2 pl-4 font-bold text-gray-700" >Trending pages</h2>
   <!-- Ng generated items possibly from ngFor -->
-  <app-card-item></app-card-item>
-  <app-card-item></app-card-item>
-  <app-card-item></app-card-item>
+  <app-card-item *ngFor="let post of posts" [name]="post.name" [description]="post.description"></app-card-item>
 
 </div>
