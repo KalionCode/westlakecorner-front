@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import {ENDPOINT} from 'app/app.config';
+
 import { CardItemComponent } from './card-item.component';
 
 describe('CardItemComponent', () => {
