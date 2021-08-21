@@ -4,11 +4,11 @@ import {ENDPOINT_ROOT} from '../../../app.config';
 import {ItemModel} from '../../../models/Item.model';
 
 @Component({
-  selector: 'app-card-item',
-  templateUrl: './card-item.component.html',
-  styleUrls: ['./card-item.component.scss']
+  selector: 'app-post-item',
+  templateUrl: './post-item.component.html',
+  styleUrls: ['./post-item.component.scss']
 })
-export class CardItemComponent implements OnInit {
+export class PostItemComponent implements OnInit {
   @Input() item:ItemModel = {
     name:'',
     description: '',

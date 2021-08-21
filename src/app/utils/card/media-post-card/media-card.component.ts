@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-media-card',
+  selector: 'app-media-post-card',
   templateUrl: './media-card.component.html',
   styleUrls: ['./media-card.component.scss']
 })
-export class MediaCardComponent implements OnInit {
+export class MediaPostCardComponent implements OnInit {
 
   constructor() { }
 
